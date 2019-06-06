@@ -1,0 +1,47 @@
+$color-primary:#C1272D;
+$color-white:#fff;
+
+$bp-largest:75em; //1200px;
+$bp-large:68.75em; //1100px;
+$bp-medium:56.25em; //900px;
+$bp-small:37.5em; //600px;
+$bp-smallest:31.25em; //500px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Futonto";
+    src: url(../fonts/07-Futonto-is-scary-Mincho.OTF);
+    font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem=10px, 10px/16px=62.5%
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+body {
+    font-family: "Futonto";
+    font-weight: 400;
+    line-height: 1.4;
+}

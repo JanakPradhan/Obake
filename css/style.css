@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: "Futonto";
+  src: url(../fonts/07-Futonto-is-scary-Mincho.OTF);
+  font-display: swap; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto; }
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto; }
+
+body {
+  font-family: "Futonto";
+  font-weight: 400;
+  line-height: 1.4; }
+
+.hero {
+  background-image: url(../img/hero-background.png);
+  background-size: cover; }
+  .hero__box {
+    text-align: center;
+    padding: 155px 0 130px 0; }
+
+.ghost {
+  background-color: #000; }
+  .ghost__box {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    text-align: center; }
+
+.hero__text {
+  font-size: 8.2rem;
+  color: #C1272D;
+  font-weight: 600;
+  line-height: 105px;
+  margin-bottom: 60px; }
+
+.hero__text-bottom {
+  display: block; }
+
+.hero__paragraph {
+  font-size: 2.8rem;
+  line-height: 52px;
+  color: #fff; }
+
+.ghost__photo {
+  width: 156px;
+  height: 336px; }
+
+.ghost__photo-2 {
+  width: 135px;
+  height: 291px; }
+
+.ghost__photo-3 {
+  width: 156px;
+  height: 292px; }
+
+.ghost__details {
+  color: #fff;
+  font-size: 2.4rem; }

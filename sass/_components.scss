@@ -1,0 +1,49 @@
+//HERO
+
+.hero {
+    &__text {
+        font-size: 8.2rem;
+        color: $color-primary;
+        font-weight: 600;
+        line-height: 105px;
+        margin-bottom: 60px;
+    }
+
+    &__text-bottom {
+        display: block;
+    }
+
+    &__paragraph {
+        font-size: 2.8rem;
+        line-height: 52px;
+        color: $color-white;
+    }
+}
+
+//GHOST
+
+.ghost {
+
+
+    &__item {}
+
+    &__photo {
+        width: 156px;
+        height: 336px;
+    }
+
+    &__photo-2 {
+        width: 135px;
+        height: 291px;
+    }
+
+    &__photo-3 {
+        width: 156px;
+        height: 292px;
+    }
+
+    &__details {
+        color: $color-white;
+        font-size: 2.4rem;
+    }
+}

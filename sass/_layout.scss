@@ -1,0 +1,22 @@
+.hero {
+    background-image: url(../img/hero-background.png);
+    background-size: cover;
+
+    &__box {
+        text-align: center;
+        padding: 155px 0 130px 0;
+    }
+}
+
+.ghost {
+    background-color: #000;
+
+
+    &__box {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+}
